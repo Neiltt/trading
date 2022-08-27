@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Fang Success</title>
+    <style type="text/css">
+	span {
+		display: inline-block;
+		width: 200px;
+		text-align: left;
+	}
+</style>
+</head>
+<body>
+<div align="center">
+    <h2>Fang Query</h2>
+    <!--<span>symbols:</span><span th:text="${fang.symbols}"></span><br/>-->
+    <span>symbol:</span><span th:text="${fang.symbol}"></span><br/>
+    <span>unitCost:</span><span th:text="${fang.unitCost}"></span><br/>
+    <span>qty:</span><span th:text="${fang.qty}"></span><br/>
+    <span>id:</span><span th:text="${fang.id}"></span><br/>
+    <span>status</span><span th:text="${fang.status}"></span><br/>
+    <span>unitCost</span><span th:text="${fang.unitCost}"></span><br/>
+    <span>cost</span><span th:text="${fang.cost}"></span><br/>
+    <span>marketValue</span><span th:text="${fang.marketValue}"></span><br/>
+    <span>gainLoss</span><span th:text="${fang.gainLoss}"></span><br/>
+    <span>gainLossPercent</span><span th:text="${fang.gainLossPercent}"></span><br/>
+</div>
+</body>
+</html>
